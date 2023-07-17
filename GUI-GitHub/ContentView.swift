@@ -13,6 +13,10 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
+                .padding()
+            Image(systemName: "figure.wave")
+                .resizable()
+                .frame(width: 100, height: 150, alignment: .center)
             Text("Hello, CodeCrew!")
                 .padding()
         }
