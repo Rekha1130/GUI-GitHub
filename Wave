@@ -1,0 +1,31 @@
+
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+                .padding()
+            Image(systemName: "figure.wave")
+                .resizable()
+                .frame(width: 100, height: 150, alignment: .center)
+            Text("Hello, CodeCrew!")
+                .padding()
+            Image(systemImage: "checkmark.fill"
+                .resizable
+                .frame(width: 60, height:60, alignment: .center)
+        }
+        .padding()
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+
+
+
