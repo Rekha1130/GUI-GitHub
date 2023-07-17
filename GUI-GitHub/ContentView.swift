@@ -17,6 +17,7 @@ struct ContentView: View {
             Image(systemName: "figure.wave")
                 .resizable()
                 .frame(width: 100, height: 150, alignment: .center)
+                .foregroundColor(.green)
             Text("Hello, CodeCrew!")
                 .padding()
         }
